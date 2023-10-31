@@ -133,7 +133,6 @@ if ($domain === false) {
     <th><?php print _('Content');?></th>
     <th><?php print _('TTL');?></th>
     <th><?php print _('Prio');?></th>
-    <th><?php print _('Last update');?></th>
 </tr>
 </thead>
 
@@ -164,7 +163,6 @@ function print_record ($r) {
     print "	<td>$r->content</td>";
     print "	<td>$r->ttl</td>";
     print "	<td>$r->prio</td>";
-    print "	<td>$r->change_date</td>";
 
     print "</tr>";
 }
